@@ -6,12 +6,11 @@ Dört sayfalı, statik HTML/CSS/JS öğrenci portfolyosu.
 - Ortak dosyalar: `style.css`, `script.js`
 - Etkileşimler: mobil menü, koyu tema, proje filtreleme, örnek form doğrulama ve karakter sayacı.
 - Form mesaj göndermez veya kaydetmez.
-- Önceki ders çalışmaları: Python Randevu Planlayıcısı ve algoritma/akış şeması Randevu Hatırlatma Sistemi.
 - Gerçek proje: https://github.com/azrauzun1/Psikolog-randevu-planlay-c-
 - Üç yeni demo kodlandı (duygu takip, psikoeğitim, kurgusal vaka karar ağacı).
 - GitHub Pages yayın adresi: **Henüz yayımlanmadı**.
 - Test durumu: statik kod ve bağlantı denetimi yapıldı; gerçek tarayıcı ve cihaz testleri bekliyor.
-- Dört eski ders çalışması koşulunun yalnızca ikisi karşılanıyor. Üç yeni demo geçmiş ders ödevi değildir.
+- Dört eski ders çalışması koşulu henüz karşılanmadı.
 
 ## PROMPT 3 – Duygu Durumu Takip Aracı
 

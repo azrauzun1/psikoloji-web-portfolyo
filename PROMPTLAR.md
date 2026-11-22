@@ -169,46 +169,62 @@ Node.js `--check`: başarılı. Yerel HTML/CSS/JS bağlantıları: başarılı. 
 
 Node.js `--check` sözdizimi başarılı. Node.js ile 27 olası üç-aşamalı seçim dizisi ve üç farklı sonuç kolu doğrulandı; geçersiz seçim hata denetimi geçti. BeautifulSoup ile tüm yerel HTML bağlantıları tarandı, kırık bağlantı bulunmadı. Kalıcı depolama/ağ çağrısı için statik kaynak taraması temiz. Geri dönme, yeniden başlatma, klavye ve ekran okuyucu işlevleri kod incelemesinde mevcut; gerçek tarayıcıda etkileşim testi yapılmadı. 390/820/1440 piksel ekran görüntüleri alınmadı.
 
-## PROMPT 6 – Kapsamlı test, erişilebilirlik ve hata düzeltme
+## PROMPT 6 – Portfolyo Son Kontrol, Hata Ayıklama ve Teslime Hazırlık (22.11.2026)
 
-### Öğrencinin gönderdiği tam prompt
+### Kullanıcının gönderdiği tam prompt
 
-Klinik psikoloji odaklı Modern & Professional portfolyomun kapsamlı kalite, erişilebilirlik, gizlilik ve güvenlik kontrollerini gerçekleştir.
+PROMPT 6 – Portfolyo Son Kontrol, Hata Ayıklama ve Teslime Hazırlık
 
-PROMPT 6 kapsamında A – Kapsamlı Kalite ve Erişilebilirlik Kontrolü seçeneğini ve akademik gerekçesini onayladım.
+Klinik psikoloji odaklı Modern & Professional kişisel web portfolyomun son geliştirme ve kalite kontrol aşamasını gerçekleştirmeni istiyorum.
 
-Bu yaklaşımı tercih etmemin nedeni, portfolyomun yalnızca görsel açıdan başarılı olmasını değil, teknik olarak güvenilir, erişilebilir ve kullanıcı gizliliğine saygılı olmasını da istememdir. Psikoloji alanındaki etik sorumlulukları dijital uygulamalarımda da gözetmeyi amaçlıyorum.
+Önceki beş prompt kapsamında hazırladığımız dört ana sayfayı (Ana Sayfa, Hakkımda, Projeler, İletişim) ve üç etkileşimli mini uygulamayı (Duygu Durumu Takip Aracı, Psikoeğitim Bilgi Kartları, Örnek Vaka Karar Ağacı) koru.
 
-Önceki PROMPT 2, 3, 4 ve 5 aşamalarında oluşturduğumuz dört ana sayfayı ve üç mini uygulamayı koruyarak aşağıdaki kontrolleri gerçekleştir:
+1. Teknik kontrol
 
-1. Tüm HTML, CSS ve JavaScript dosyalarını incele. Bozuk bağlantıları, eksik dosyaları, sözdizimi hatalarını ve olası JavaScript sorunlarını tespit et.
-2. Ana Sayfa, Hakkımda, Projeler ve İletişim sayfalarının gezinti menülerini, mobil menüyü, tema değiştirme özelliğini, proje filtrelemesini ve iletişim formunun doğrulama mekanizmasını kontrol et.
-3. Duygu Durumu Takip Aracı'nın kayıt ekleme, tek tek silme, tüm kayıtları temizleme ve sayfa yenilendiğinde verilerin silinmesi özelliklerini test et.
-4. Psikoeğitim Bilgi Kartları uygulamasının kart çevirme, önceki ve sonraki karta geçme, filtreleme ve ilerleme göstergesini kontrol et.
-5. Örnek Vaka Karar Ağacı uygulamasının üç karar aşamasını, farklı senaryo dallarını, önceki adıma dönme ve yeniden başlatma işlevlerini test et.
-6. Erişilebilirlik açısından semantik HTML, form etiketleri, başlık hiyerarşisi, klavyeyle kullanım, görünür odak, ekran okuyucu duyuruları ve renk kontrastlarını değerlendir.
-7. Mobil uyumluluk açısından 390 px, 820 px ve 1440 px ekran genişliklerini kontrol et. Gerçek ekran görüntüsü alabiliyorsan oluştur; alamıyorsan bunu açıkça belirt ve görüntü oluşturmuş gibi davranma.
-8. Gizlilik ve güvenlik açısından kişisel veri toplama, kalıcı depolama, ağ üzerinden veri gönderme, kullanıcı girdilerinin güvenli işlenmesi ve olası XSS risklerini incele.
-9. Tespit ettiğin gerçek hataları düzelt. Her hata için sorunun ne olduğunu, hangi dosyada bulunduğunu ve nasıl giderildiğini açıkla. Gerçekte bulunmayan bir hatayı rapora ekleme.
-10. Gerçek tarayıcı testleri, otomatik JavaScript testleri ve statik kod incelemelerini birbirinden açıkça ayır. Gerçekleştiremediğin testleri başarılı olarak gösterme.
-11. PROMPTLAR.md dosyasına bu promptun tam metnini, onayladığım akademik karar gerekçesini, yapılan kontrolleri, tespit edilen gerçek hataları, uygulanan düzeltmeleri ve test sonuçlarını ekle.
-12. README.md dosyasını güncelle. Mevcut özellikleri, uygulamaların çalıştırılma biçimini ve henüz tamamlanmamış testleri doğru şekilde belirt.
-13. Önceki dosyaları koruyarak güncellenmiş portfolyonun tamamını ZIP dosyası olarak hazırla.
+* HTML, CSS ve JavaScript dosyalarının birbirine doğru bağlandığını kontrol et.
+* GitHub Pages üzerinde çalışacak dosya yollarını ve bağlantıları incele.
+* Menü, açık/koyu tema, proje filtreleme ve iletişim formu simülasyonunu kontrol et.
+* Üç mini uygulamanın temel etkileşimlerini test et.
+* Özellikle karar ağacındaki farklı seçim dallarını, önceki adıma dönme ve yeniden başlatma özelliklerini incele.
+* Tespit ettiğin hataları mevcut tasarımı bozmadan düzelt.
 
-İşlem tamamlandığında bana ayrıntılı test sonuçlarını, düzeltilen hataları, kalan eksiklikleri ve güncellenmiş dosyaları göster.
+2. Mobil uyumluluk ve erişilebilirlik
 
-Ardından hocamın ödev yönergesini dikkate alarak son teslim öncesinde hangi gereksinimlerin eksik olduğunu değerlendir ve bir sonraki aşama için özgün takip promptunu hazırla.
+* 390 px, 820 px ve 1440 px ekran genişlikleri için tasarımı değerlendir.
+* En az iki CSS media query bulunduğunu doğrula.
+* Semantik HTML, klavye erişimi, görünür odak, form etiketleri ve ekran okuyucu desteğini kontrol et.
+* Mobil cihazlarda yatay taşma ve okunabilirlik sorunlarını incele.
 
-### Onaylanan akademik karar gerekçesi
+3. Akademik doğruluk ve gizlilik
 
-Portfolyomda yalnızca görsel tasarıma değil, uygulamaların güvenilirliğine ve erişilebilirliğine de önem vermek istedim. Bu nedenle son geliştirme aşamasında kapsamlı bir kalite kontrolü yapmayı tercih ettim. Böylece JavaScript işlevlerini, mobil uyumluluğu, form doğrulamasını, gizlilik önlemlerini ve erişilebilirlik özelliklerini sistematik biçimde inceleyerek daha işlevsel ve kullanıcı odaklı bir portfolyo oluşturmayı amaçladım.
+* Önceki ders çalışmalarımı, bu portfolyo için yeni geliştirilen uygulamalardan açıkça ayır.
+* Psikoloji kavramlarını bilimsel açıdan dikkatli ve anlaşılır biçimde sun.
+* Mini uygulamaların eğitim amaçlı olduğunu ve tanı ya da tedavi yerine geçmediğini belirt.
+* Kişisel veri toplamayan ve kalıcı kayıt oluşturmayan uygulamaların gizlilik açıklamalarını kontrol et.
 
-### Gerçek YZ işlemleri, hata ve testler
+4. Dokümantasyon
 
-Statik HTML/JS taraması, Node.js sözdizimi, sahte DOM etkileşim testleri ve karar ağacı saf fonksiyon testleri çalıştırıldı. `projeler/duygu.js` içindeki son kayıt silindiğinde devre dışı bırakılan düğmeye odaklanma hatası tespit edildi ve giderildi. Tam sonuçlar `TEST_SONUCLARI_PROMPT6.md` dosyasındadır. Chromium ekran görüntüsü denemesi süre aşımına uğradı; gerçek tarayıcı testleri tamamlanmadı. GitHub Pages yayını yapılmadı.
+* README.md dosyasını projenin amacı, kullanılan teknolojiler, sayfalar, uygulamalar ve GitHub Pages bağlantısı açısından gözden geçir.
+* PROMPTLAR.md dosyasında altı gerçek kullanıcı promptunun eksiksiz bulunmasını sağla.
+* Bu altıncı promptun tam metnini, akademik gerekçesini, gerçekleştirilen değişiklikleri, test sonuçlarını ve varsa hataları PROMPTLAR.md dosyasına ekle.
+* Gerçekte yapılmamış testleri yapılmış gibi gösterme.
 
+5. Teslime hazırlık
 
-## PROMPT 7 – Teslim hazırlığı ve proje sınıflandırması (22.11.2026)
-Öğrenci, bugün teslim edilecek portfolyoyu önce tamamlamayı; iki önceki ders çalışmasını ve üç yeni demoyu ayrı kategorilerde, doğru şekilde göstermeyi onayladı.
-Karar: Önceki çalışma 1 = Psikolog Seans ve Randevu Planlayıcısı (Python). Önceki çalışma 2 = Psikolog Randevu Hatırlatma Sistemi (algoritma ve akış şeması, çalışan yazılım değil). Üç yeni demo portfolyo için geliştirildi. Dört önceki çalışma şartı karşılanmıyor.
-Yapılan değişiklikler: projeler.html sayfasına ikinci önceki çalışma kartı eklendi; belgelere kaynak ödev dosyaları eklendi; README güncellendi. Gerçek GitHub Pages yayını, ekran görüntüleri ve Teams teslimi yapılmadı.
+* Mevcut dosyaları silmeden veya gereksiz yere yeniden oluşturmadan son sürümü hazırla.
+* Değişen dosyaları ve değişiklik nedenlerini açıkla.
+* Çalışan özellikleri, doğrulanan testleri ve henüz doğrulanamayan noktaları ayrı ayrı raporla.
+* Akademik rapor için kullanılabilecek teknik test özeti hazırla.
+* Teslim öncesi tamamlamam gereken işlemleri belirt.
+
+Mevcut açık lila, beyaz ve koyu lacivert renk paletini, profesyonel görünümü ve klinik psikoloji odağını koru.
+
+Son olarak güncellenmiş proje dosyalarını ZIP biçiminde sun ve GitHub’a yükleme sürecinde bana adım adım rehberlik et.
+
+### Onaylanan akademik gerekçe
+
+Portfolyomun geliştirme aşamasında oluşturduğum sayfaların ve etkileşimli uygulamaların yalnızca görsel açıdan değil, işlevsellik, erişilebilirlik ve kullanıcı deneyimi bakımından da yeterli olmasını önemsiyorum. Bu nedenle son aşamada yeni özellikler eklemek yerine mevcut çalışmaları test etmeyi, olası hataları belirlemeyi ve projemi akademik teslim koşullarına uygun hâle getirmeyi tercih ettim.
+
+### Gerçek işlemler ve sınırlamalar
+
+Mevcut PROMPT 6 kalite kontrol arşivindeki dosyalar esas alındı; statik dosya/bağlantı kontrolü, Node.js sözdizimi kontrolü ve sahte DOM etkileşim testleri yeniden çalıştırıldı. Duygu uygulamasında daha önce düzeltilen odak hatası korundu. Bu turda ek kod hatası tespit edilmedi. Kullanıcının iPad ekran görüntüleri karar ağacının tek bir yolunda üç aşamayı, sonuç ekranını ve yeniden başlatmayı doğrulamaktadır. Diğer dallar ve 390/820/1440 piksel gerçek tarayıcı görüntüleri bu turda doğrulanmadı. Test ayrıntıları TEST_SONUCLARI_PROMPT6.md içindedir.
